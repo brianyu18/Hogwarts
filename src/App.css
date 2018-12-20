@@ -30,3 +30,111 @@
     transform: rotate(360deg);
   }
 }
+
+.houseBanner {
+  background-color: #f7d559;
+  border-style: outset;
+  border-color: red;
+  border-width: 5px;
+  color: red;
+}
+
+.imgCard {
+  border-style: outset;
+  border-color: red;
+  border-width: 5px;
+  color: red;
+}
+
+.bottomBox {
+  overflow: scroll;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.characterStyle {
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
+
+#img2 {
+  width: 400px;
+  height: 500px;
+}
+
+body {
+  margin: 0;
+}
+
+#App {
+  display: flex;
+}
+
+.PotterContainer {
+  width: 25vw;
+  height: 100vh;
+}
+
+.PotterImageBorder {
+  width: 400px;
+  height: 500px;
+  border-style: outset;
+  border-color: red;
+  border-width: 5px;
+  color: red;
+}
+
+.PotterDisplay {
+  width: 75vw;
+  height: 102vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(125, 58, 37);
+  color: white;
+}
+
+.PotterList {
+  overflow: scroll;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-flex-start;
+  background-color: rgb(125, 58, 37);
+}
+
+
+.PotterItem {
+  font-size: 3vh;
+  margin-top: 2vh;
+  background-color: #f7d559;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: outset;
+  border-color: red;
+  border-width: 5px;
+  color: red;
+}
+
+.PotterBottom {
+  background-color: #f7d559;
+  height: 250px;
+  border-top: 4vh solid #6b1c00;
+  display: flex;
+  align-content:space-around;
+  align-items: center;
+  justify-content: center;
+  border-style: outset;
+  border-color: red;
+  border-width: 5px;
+  color: red;
+}
